@@ -1,2 +1,4 @@
-# 15688-project
-The official repository for the 15-688 project
+Analyzing NYC Traffic Collision Data
+====================================
+
+The official repository for the CMU 15-688 project, created by [Ahmet Emre Unal](https://github.com/aemreunal) and [Marco Peyrot](https://github.com/mpeyrotc).
