@@ -27,6 +27,7 @@ Data, information and code from the following sources have been used in this pro
  * Bicycle lane information was obtained from [NYC local government website](http://www.nyc.gov/html/dot/html/bicyclists/lane-list.shtml)
  * The API and code to generate and plot the map of NYC was taken from [here](http://leafletjs.com/)
  * Geo-spatial distance calculation example from [here](http://gis.stackexchange.com/a/189960)
+ * Coordinate format conversion done with [this tool](http://www.earthpoint.us/Convert.aspx)
  * Course slides and homeworks
 
 
