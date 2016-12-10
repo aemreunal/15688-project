@@ -3,21 +3,28 @@ Analyzing NYC Traffic Collision Data
 
 The official repository for the CMU 15-688 project, created by [Ahmet Emre Unal](https://github.com/aemreunal) and [Marco Peyrot](mpeyrotc.github.io).
 
-To run the notebook it is required to install the following packages via pip:
+The notebook depends on a number of third party Python libraries, including:
 
-    * colour
+ * `numpy`
+ * `pandas`
+ * `scikit-learn`
+ * `BeautifulSoup`
+ * `matplotlib`
+ * `seaborn`
+ * `colour`
+ * `geopy`
+ * `PIL`
 
-and download the NYPD_Motor_Vehicle_Collisions data as a csv file. This file is located at this [site](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95/data) and must be put in the same directory as the rest of the files in our submission. Download it via the Export option.
+You can install them via pip to run the notebook.
 
-The nbviewer link that we submitted for evaluation is [this](). 
+The main data source for this project is the NYPD Motor Vehicle Collisions dataset, available [here](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95/data). Download this as a CSV file (via the 'Export' option) and put it to the project's root folder.
 
-A point of consideration is that plotting on the map requires the generation of html files which you can open
-at any given time to view information.
+The notebook can be viewed through [nbviewer](https://nbviewer.jupyter.org/github/aemreunal/15688-project/blob/master/NYC%20Traffic%20Collision%20Data.ipynb).
 
-Finally, we used data, information and code from the following sources:
+Data, information and code from the following sources have been used in this project:
 
-    * Bicycle lane information was obtained from http://www.nyc.gov/html/dot/html/bicyclists/lane-list.shtml
-    * The API and code to generate and plot the map of NY was taken from http://leafletjs.com/
-    * Course slides and homework.
+ * Bicycle lane information was obtained from [NYC local government website](http://www.nyc.gov/html/dot/html/bicyclists/lane-list.shtml)
+ * The API and code to generate and plot the map of NYC was taken from [here](http://leafletjs.com/)
+ * Course slides and homeworks
 
 
